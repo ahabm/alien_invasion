@@ -1,0 +1,4 @@
+FROM python:alpine3.8
+COPY . /
+CMD python -m http.server
+
